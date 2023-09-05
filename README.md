@@ -1,2 +1,4 @@
-# sign-up-form
-A sample sign-up form for an imaginary service. 
+# Sign Up Form
+##A sample sign-up form for an imaginary service.
+
+Created to practice form validation.
