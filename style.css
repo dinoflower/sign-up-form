@@ -129,15 +129,23 @@ li > label {
   box-sizing: border-box;
   border-radius: 5px;
   font-size: .5rem;
-  border: 1px solid #d3d3d3;
+  border: 1px solid #E5E7EB;
+  padding: 4px;
 }
 
 input:focus {
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid #0073cf;
 }
 
 input:invalid {
-  border:1px solid #90112f;
+  border: 1px solid #90112f;
+}
+
+.error {
+  color: #90112f;
+  font-size: .35rem;
+  font-weight: 500;
 }
 
 button {
@@ -162,6 +170,6 @@ button:hover {
   margin-bottom: 144px
 }
 
-.button-container > a:link {
-  color:#094f57;
+.button-container a:link {
+  color: #094f57;
 }

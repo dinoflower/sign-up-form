@@ -43,11 +43,13 @@
           </li>
           <li>
             <label for="password">PASSWORD</label>
-            <input type="password" id="password" name="password" />
+            <input type="password" id="password" name="password" required />
+            <span class="error" id="match"></span>
           </li>
           <li>
             <label for="confirm">CONFIRM PASSWORD</label>
-            <input type="password" id="confirm" name="confirm_password" />
+            <input type="password" id="confirm_password" name="confirm_password" required />
+            <span class="error"></span>
           </li>
         </ul>
       </form>
@@ -57,5 +59,6 @@
       <p>Already have an account? <a href="log-in.html">Log in</a></p>
     </div>
   </div>
+  <script src="javascript.js"></script>
 </body>
 </html>
